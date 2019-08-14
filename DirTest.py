@@ -11,15 +11,15 @@ print("""
 	██████╔╝██║██║  ██║   ██║   ███████╗███████║   ██║ 
 	╚═════╝ ╚═╝╚═╝  ╚═╝   ╚═╝   ╚══════╝╚══════╝   ╚═╝ 
 
-	\033[1mFrom\033[0m: 	SayCure \033[94m\033[1m(@SayCureIO)\033[0m
-		https://SayCure.io
+	\033[1mFrom\033[0m: 	CryptoGen Nepal \033[94m\033[1m(@CryptoGenNepal)\033[0m
+		https://CryptoGenNepal.com
 
 	\033[1mAuthor\033[0m: #Nittam \033[94m\033[1m(@TheNittam)\033[0m
 		https://nirmaldahal.com.np
 	_____________________________________________________
 """)
 regex='<a href=\\"(.*?)\\">'
-def link(url):E
+def link(url):
 	I='\x1b[0m';E=False;D='/';C=url;F=requests.get(C,verify=E);A=re.findall(regex,F.text)
 	for B in range(1,len(A)):
 		if'.'in A[B]:
